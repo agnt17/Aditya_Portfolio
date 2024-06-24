@@ -1,22 +1,26 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+
+const handleClick = (link: string | URL | undefined) => {
+  window.open(link, "_blank");
+};
 
 const RecentProjects = () => {
   return (
     <div className="py-20">
       <h1 className="heading">
         A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        <span className="text-purple">Recent Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
+            onClick={() => handleClick(item.link)}
           >
             <PinContainer
               title="/ui.aceternity.com"
@@ -65,8 +69,11 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                <div
+                  className="flex justify-center items-center cursor-pointer"
+                  
+                >
+                  <p className="flex lg:text-xl md:text-xs text-sm text-blue-500">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
