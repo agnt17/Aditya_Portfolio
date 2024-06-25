@@ -2,47 +2,65 @@
 
 import React from "react";
 
-import { companies, testimonials } from "@/data";
-import { InfiniteMovingCards } from "./ui/InfiniteCards";
-
 const Clients = () => {
   return (
-    <section id="testimonials" className="py-20">
+    <section id="testimonials" className="py-2">
       <h1 className="heading">
-        Kind words from
-        <span className="text-purple"> satisfied clients</span>
+        My Expertise and
+        <span className="text-purple"> Strongest Areas</span>
       </h1>
 
-      <div className="flex flex-col items-center max-lg:mt-10">
-        <div
-          // remove bg-white dark:bg-black dark:bg-grid-white/[0.05], h-[40rem] to 30rem , md:h-[30rem] are for the responsive design
-          className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
-        >
-          <InfiniteMovingCards
-            items={testimonials}
-            direction="right"
-            speed="slow"
-          />
-        </div>
-
-        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
-          {companies.map((company) => (
-            <React.Fragment key={company.id}>
-              <div className="flex md:max-w-60 max-w-32 gap-2">
-                <img
-                  src={company.img}
-                  alt={company.name}
-                  className="md:w-10 w-5"
-                />
-                <img
-                  src={company.nameImg}
-                  alt={company.name}
-                  width={company.id === 4 || company.id === 5 ? 100 : 150}
-                  className="md:w-24 w-20"
-                />
-              </div>
-            </React.Fragment>
-          ))}
+      <div className="flex justify-center items-center min-h-screen mt-5">
+        <div className="grid grid-cols-5 gap-7 lg:gap-20 p-4 max-lg:mt-10">
+          <img src="./html.svg" className="w-12 lg:w-32"/>
+          <img src="./css.svg" className="w-12 lg:w-32" />
+          <img src="./tail.svg" className="w-12 lg:w-28" />
+          <img src="./js.svg" className="w-12 lg:w-32" />
+          <img src="./nodejs.svg" className="w-12 lg:w-32" />
+          <img src="./re.svg" className="w-12 lg:w-32" />
+          <img src="./express.svg" className="w-12 lg:w-32" />
+          <img src="./mongodb.svg" className="w-12 lg:w-32" />
+          <img src="./next.svg" className="w-12 lg:w-32" />
+          <img src="./vercel.jpg" className="w-12 lg:w-32" />
+          <img src="./three.svg" className="w-12 lg:w-32" />
+          <img src="./ts.svg" className="w-12 lg:w-32" />
+          <img src="./github.svg" className="w-12 lg:w-32" />
+          <img src="./Angular.svg" className="w-12 lg:w-32" />
+          <img src="./Bootstrap.svg" className="w-12 lg:w-32" />
+          <img src="./c.svg" className="w-12 lg:w-32" />
+          <img src="./C++.svg" className="w-12 lg:w-32" />
+          <img src="./Java.svg" className="w-12 lg:w-32" />
+          <img src="./python.svg" className="w-12 lg:w-32" />
+          {/* <img src="./ESLint.svg" className="w-12 lg:w-32" /> */}
+          <img src="./Figma.svg" className="w-12 lg:w-32" />
+          <img src="./Firebase.svg" className="w-12 lg:w-32" />
+          <img src="./Google Cloud.svg" className="w-12 lg:w-32" />
+          <img src="./Insomnia.svg" className="w-12 lg:w-32" />
+          {/* <img src="./IntelliJ IDEA.svg" className="w-12 lg:w-32" /> */}
+          <img src="./JetBrains.svg" className="w-12 lg:w-32" />
+          <img src="./JSON.svg" className="w-12 lg:w-32" />
+          <img src="./Jupyter.svg" className="w-12 lg:w-32" />
+          <img src="./Kaggle.svg" className="w-12 lg:w-32" />
+          {/* <img src="./LaTeX.svg" className="w-12 lg:w-32" /> */}
+          <img src="./Linux.svg" className="w-12 lg:w-32" />
+          <img src="./Material UI.svg" className="w-12 lg:w-32" />
+          <img src="./MATLAB.svg" className="w-12 lg:w-32" />
+          <img src="./Matplotlib.svg" className="w-12 lg:w-32" />
+          <img src="./Mongoose.js.svg" className="w-12 lg:w-32" />
+          <img src="./MySQL.svg" className="w-12 lg:w-32" />
+          <img src="./NET core.svg" className="w-12 lg:w-32" />
+          <img src="./Nodemon.svg" className="w-12 lg:w-32" />
+          <img src="./PostgresSQL.svg" className="w-12 lg:w-32" />
+          <img src="./Postman.svg" className="w-12 lg:w-32" />
+          <img src="./Pycharm.svg" className="w-12 lg:w-32" />
+          {/* <img src="./PyTorch.svg" className="w-12 lg:w-32" /> */}
+          <img src="./Redux.svg" className="w-12 lg:w-32" />
+          <img src="./Scikit.svg" className="w-12 lg:w-32" />
+          <img src="./SQL.svg" className="w-12 lg:w-32" />
+          <img src="./Streamlit.svg" className="w-12 lg:w-32" />
+          <img src="./TensorFlow.svg" className="w-12 lg:w-32" />
+          <img src="./Visual Studio.svg" className="w-12 lg:w-32" />
+          <img src="./Vite.js.svg" className="w-12 lg:w-32" />
         </div>
       </div>
     </section>
