@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-10 pt-36">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -57,17 +57,35 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4  text-xl lg:text-2xl">
-            Hi! I&apos;m <span className="text-2xl lg:text-4xl text-blue-600"> Aditya</span>.
-            <br/> <span className="mt-2"> A Full Stack Developer and Technology Enthusiast.</span>
+            Hi! I&apos;m{" "}
+            <span className="text-2xl lg:text-4xl text-blue-600"> Aditya</span>.
+            <br />{" "}
+            <span className="mt-2">
+              {" "}
+              A Full Stack Developer and Technology Enthusiast.
+            </span>
           </p>
 
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex flex-col lg:flex-row  gap-10">
+            <a href="#about">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1SdAK8PxmzuNvHX7IiMvZpBR26GZrY_vX/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MagicButton
+                title="My Resume"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>

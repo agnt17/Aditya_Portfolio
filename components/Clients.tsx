@@ -4,7 +4,7 @@ import React from "react";
 
 const Clients = () => {
   return (
-    <section id="testimonials" className="py-2">
+    <section id="skills" className="py-2">
       <h1 className="heading">
         My Expertise and
         <span className="text-purple"> Strongest Areas</span>

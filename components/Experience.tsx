@@ -3,14 +3,18 @@ import React from "react";
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
 
+const handleClick = (link: string | URL | undefined) => {
+  window.open(link, "_blank");
+};
+
 const Experience = () => {
   return (
     <div className="py-20 w-full">
       <h1 className="heading">
-        My <span className="text-purple">work experience</span>
+        My <span className="text-purple">Work Experience</span>
       </h1>
 
-      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
+      <div className="w-full mt-12 gap-10 flex justify-center mx-auto">
         {workExperience.map((card) => (
           <Button
             key={card.id}
@@ -28,6 +32,7 @@ const Experience = () => {
             }}
             // remove bg-white dark:bg-slate-900
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            onClick={() => handleClick(card.link)}
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <img
