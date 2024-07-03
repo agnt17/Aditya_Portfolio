@@ -66,7 +66,7 @@ const Hero = () => {
             </span>
           </p>
 
-          <div className="flex flex-col lg:flex-row  gap-10">
+          <div className="flex flex-col lg:flex-row gap-10">
             <a href="#about">
               <MagicButton
                 title="Show my work"
@@ -81,6 +81,13 @@ const Hero = () => {
             >
               <MagicButton
                 title="My Resume"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a href="https://codolio.com/profile/adi_20042003">
+              <MagicButton
+                title="My Coding Profiles"
                 icon={<FaLocationArrow />}
                 position="right"
               />
