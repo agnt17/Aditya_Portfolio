@@ -88,6 +88,7 @@ const Hero = () => {
             <a href="https://codolio.com/profile/adi_20042003">
               <MagicButton
                 title="My Coding Profiles"
+                target="_blank"
                 icon={<FaLocationArrow />}
                 position="right"
               />
