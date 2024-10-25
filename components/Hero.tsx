@@ -85,10 +85,10 @@ const Hero = () => {
                 position="right"
               />
             </a>
-            <a href="https://codolio.com/profile/adi_20042003">
+            <a href="https://codolio.com/profile/adi_20042003" target="_blank">
               <MagicButton
                 title="My Coding Profiles"
-                target="_blank"
+                
                 icon={<FaLocationArrow />}
                 position="right"
               />
