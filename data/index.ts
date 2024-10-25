@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently Learning NLP and Advnaced Machine Learning.",
+    title: "Currently Learning Advanced DSA and Devops.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-48",
@@ -72,6 +72,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Attendance Tracking System",
+    des: "This Project is build to track the attendance record of the students. Build using advanced technologies like NextJS, ReactJS, Postgres, Drizzle ORM, Kinde Auth Service etc.",
+    img: "/p6.png",
+    iconLists: ["next.svg", "/re.svg", "/tail.svg", "nodejs.svg",  "/js.svg", "/github.svg", "PostgresSQL.svg"],
+    link: "https://student-attendance-tracking-system.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Github-X",
     des: "A MERN-stack Application specifically built with the intent of simplifying the use of GitHub.",
     img: "/p1.png",
@@ -79,7 +87,15 @@ export const projects = [
     link: "https://mernstack-github.onrender.com/",
   },
   {
-    id: 2,
+    id: 3,
+    title: "AI Content Creator",
+    des: " Build a full-stack application employing NextJs and Drizzle to generate tailored written content using AI.",
+    img: "/p5.png",
+    iconLists: ["/re.svg", "/tail.svg", "nodejs.svg", "mongodb.svg", "/js.svg", "/github.svg", "Firebase.svg"],
+    link: "https://creator-ai-five.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Literary Sub Council",
     des: "A visually appealing 3D website for the college sub-council hosting biggest fest of our college.",
     img: "/p2.png",
@@ -87,7 +103,7 @@ export const projects = [
     link: "https://www.lithbtu.in/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Movie Recommender Engine",
     des: "Developed a Movie Recommendation Engine using Python and its libraries like pandas, numpy",
     img: "/p3.png",
@@ -95,7 +111,7 @@ export const projects = [
     link: "https://github.com/agnt17/movie-recommender-engine",
   },
   {
-    id: 4,
+    id: 6,
     title: "Notes App",
     des: "This is an Ongoing Project and is aimed to provide all the Notes at one place.",
     img: "/p4.png",
@@ -171,10 +187,18 @@ export const companies = [
 ];
 
 export const workExperience = [
-  {
+   {
     id: 1,
-    title: "Frontend Developer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "FullStack Web Developer Intern",
+    desc: "Engineered Full Stack Web Applications using VueJS, NodeJS, and MySQL. Developed and deployed numerous websites utilized by prominent organizations, including hospitals and schools and cut down paperwork by 75%, ensuring robust, user-friendly, and scalable solutions.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+    link: "https://example128.site.guru/"
+  },
+  {
+    id: 2,
+    title: "Frontend Web Developer Intern",
+    desc: "Engineered a UF Frontend web app using ReactJS and NodeJS to curate and display over 500 online courses on diverse subjects, increasing user engagement and course enrollment by 40%. Solved major problem of live online session streaming, thus increasing approx 1000 Students",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
     link: "https://4-fox-landing-pge.vercel.app/"

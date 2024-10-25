@@ -8,42 +8,42 @@ const Grid = () => {
         <div className="p-4">
           I am currently pursuing a Bachelor of Technology degree at HBTU
           Kanpur. Over the past three years, I have immersed myself in the world
-          of Web Development, acquiring extensive Technical and Practical
+          of Web Development and Data Structres and Algorithms, acquiring extensive Technical and Practical
           skills, which I continue to expand.
         </div>
         <div className="p-4">
           In addition to my Web Development Experience, I have actively engaged
           in Competitive Programming. I have achieved the rank of{" "}
-          <span className="text-orange-600 font-semibold text-xl lg:text-2xl">
+          <span className="text-violet-600 font-semibold text-xl lg:text-2xl">
             Knight on LeetCode
           </span>
           ,{" "}
-          <span className="text-blue-400 font-semibold text-xl lg:text-2xl">
+          <span className="text-violet-600 font-semibold text-xl lg:text-2xl">
             3 Star on CodeChef
           </span>
           , and{" "}
-          <span className="text-emerald-700 font-semibold text-xl lg:text-2xl">
+          <span className="text-violet-600 font-semibold text-xl lg:text-2xl">
             Pupil on Codeforces
           </span>
           . Over the past 2 to 3 years, I have solved approximately{" "}
           <span className="text-violet-600 font-semibold text-xl lg:text-2xl">
-            <span className="text-2xl lg:text-3xl">1000+</span> Data Structures
+            <span className="text-2xl lg:text-3xl">1200+</span> Data Structures
             and Algorithms (DSA) and competitive programming problems.
           </span>
         </div>
         <div className="p-4">
           Moreover, I have gained practical experience in the field of{" "}
-          <span className="text-yellow-400 font-semibold text-xl lg:text-2xl">
+          <span className="text-violet-600 font-semibold text-xl lg:text-2xl">
             {" "}
-            Machine Learning
+            Full Stack Web Development
           </span>{" "}
-          by working on real-world projects and earning various certificates in{" "}
-          <span className="text-teal-500 font-semibold text-xl lg:text-2xl">
+          by working on real-world projects in an Internship and also earning certificates in the field{" "}
+          <span className="text-violet-600 font-semibold text-xl lg:text-2xl">
             {" "}
             Machine Learning
           </span>{" "}
           and{" "}
-          <span className="text-rose-500 font-semibold text-xl lg:text-2xl">
+          <span className="text-violet-600 font-semibold text-xl lg:text-2xl">
             {" "}
             Deep Learning.
           </span>

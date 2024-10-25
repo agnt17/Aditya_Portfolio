@@ -58,11 +58,11 @@ const Hero = () => {
 
           <p className="text-center md:tracking-wider mb-4  text-xl lg:text-2xl">
             Hi! I&apos;m{" "}
-            <span className="text-2xl lg:text-4xl text-blue-600"> Aditya</span>.
+            <span className="text-2xl lg:text-4xl text-blue-600"> Aditya Gupta</span>.
             <br />{" "}
             <span className="mt-2">
               {" "}
-              A Full Stack Developer and Technology Enthusiast.
+              An Engineering Student and Technology Enthusiast.
             </span>
           </p>
 
@@ -75,7 +75,7 @@ const Hero = () => {
               />
             </a>
             <a
-              href="https://drive.google.com/file/d/1SdAK8PxmzuNvHX7IiMvZpBR26GZrY_vX/view"
+              href="https://drive.google.com/file/d/17X5cgV1akOfhki9e1cX8lwF-UOaGDFpo/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
